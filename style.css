@@ -1,0 +1,142 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.logoFig {
+   max-width: 33px;
+   border-radius: 100%;
+   line-height: 0px;
+   padding: 10px;
+   margin-bottom: 15px;
+   text-align: center;
+   background-color: hsl(214, 15%, 22%);
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 390px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 22px;
+    font-weight: 400;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.small_box + .small_box {
+    margin-left: 20px;
+}
+
+.small_box {
+    background-color: hsl(214, 15%, 22%);
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 150%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button {
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 100%;
+    border: None;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.logoFig2 {
+    width: 70%;
+}
+
+.thanks_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-choice {
+    background-color: hsl(200, 3%, 23%);
+    font-size: 13px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 12px;
+    color:  hsl(25, 97%, 53%);
+}
+
+.thanks_content {
+    display: none;
+    margin: 1%;
+}
+
+.thanks-para-content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: white; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
